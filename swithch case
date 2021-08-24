@@ -1,0 +1,20 @@
+public class swithch case { 
+   public static void main ( string [] args) ;{
+     
+      int choice ;
+      system.out.println("pick one = hi\t2. hey\t3. hello\t");
+      choice = next.nextint(); 
+      switch(choice) 
+      {
+          
+          case 1 : system.out.println("you said hi"); 
+               break;
+          case 2 : system.out.println("you said hey");
+               break;
+          case 3 : system.out.println("you said hello");
+               break;
+          default : system.out.println("invalid choice.");
+      } 
+   
+  }
+}
